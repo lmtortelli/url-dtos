@@ -1,5 +1,12 @@
 {
   "dependencies": {
     "class-validator": "^0.11.1"
-  }
+  },
+  "name": "url-dto",
+  "version": "1.0.0",
+  "description": "Common library for DTO of TinyUrlST",
+  "main": "index.js",
+  "repository": "https://github.com/lmtortelli/url-dtos.git",
+  "author": "lmtortellis <lucas.tortelli@melhorenvio.com>",
+  "license": "MIT"
 }
