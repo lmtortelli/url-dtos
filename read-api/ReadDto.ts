@@ -1,8 +1,8 @@
-import { IsUrl } from 'class-validator'
+import { IsUrl, IsHash } from 'class-validator'
 
 export class ReadDto {
 
-    @IsUrl()
-    url : String;
+    @IsHash("md5")
+    keyUrl : String;
     
 }
